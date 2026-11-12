@@ -1,10 +1,7 @@
 name: Release Notes PR Trigger
 
 on:
-  pull_request:
-    types: [opened]
-    paths:
-      - content/manuals/desktop/release-notes.md
+  workflow_dispatch:
 
 jobs:
   trigger:

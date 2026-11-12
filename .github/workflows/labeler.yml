@@ -5,7 +5,7 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  pull_request_target: # zizmor: ignore[dangerous-triggers] safe here, this workflow only applies labels and never checks out or executes PR code
+  workflow_dispatch:
 
 jobs:
   labeler:

@@ -10,11 +10,6 @@ on:
         description: "(optional) Docker CLI version - defaults to docker_ce_version in hugo.yaml"
         required: false
         default: ""
-  pull_request:
-    paths:
-      - '.github/workflows/sync-cli-docs.yml'
-      - 'hack/sync-cli-docs.sh'
-
 permissions:
   contents: write
   pull-requests: write

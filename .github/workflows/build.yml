@@ -9,8 +9,6 @@ on:
     # needs push event on default branch otherwise cache is evicted when pull request is merged
     branches:
       - main
-  pull_request:
-
 env:
   # Use edge release of buildx (latest RC, fallback to latest stable)
   SETUP_BUILDX_VERSION: edge

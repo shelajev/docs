@@ -1,10 +1,6 @@
 name: PR Review
 on:
-  issue_comment:
-    types: [created]
-  workflow_run:
-    workflows: ["PR Review - Trigger"]
-    types: [completed]
+  workflow_dispatch:
 
 permissions:
   contents: read # Required at top-level to give `issue_comment` events access to the secrets below.

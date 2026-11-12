@@ -10,10 +10,6 @@ on:
         description: "(optional) docker-agent version - defaults to the latest release tag"
         required: false
         default: ""
-  pull_request:
-    paths:
-      - '.github/workflows/sync-docker-agent-docs.yml'
-
 permissions:
   contents: write
   pull-requests: write

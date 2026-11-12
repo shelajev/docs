@@ -1,9 +1,7 @@
 name: Notify Slack on Desktop Release Notes PR
 
 on:
-  workflow_run:
-    workflows: ["Release Notes PR Trigger"]
-    types: [completed]
+  workflow_dispatch:
 
 jobs:
   notify:
